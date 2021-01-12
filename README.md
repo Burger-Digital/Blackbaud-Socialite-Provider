@@ -1,9 +1,9 @@
-# install
+# Install with composer
 ```
 composer require burger-digital/blackbaud-socialite-provider
 ```
 
-# register
+# Register in EventServiceProvider.php
 ```PHP
 protected $listen = [
     \SocialiteProviders\Manager\SocialiteWasCalled::class => [
@@ -12,7 +12,7 @@ protected $listen = [
 ];
 ```
 
-# configure in services.php
+# Configure in services.php
 ```PHP
 'blackbaud' => [
     'client_id' => env('BLACKBAUD_KEY'),
@@ -21,7 +21,7 @@ protected $listen = [
 ]
 ```
 
-# start building
+# Start building
 ```PHP
 return Socialite::driver('blackbaud')->redirect();
 ```
