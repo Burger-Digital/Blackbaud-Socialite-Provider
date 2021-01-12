@@ -1,5 +1,7 @@
 # install
+```
 composer require burger-digital/blackbaud-socialite-provider
+```
 
 # register
 ```PHP
@@ -9,6 +11,7 @@ protected $listen = [
     ],
 ];
 ```
+
 # configure in services.php
 ```PHP
 'blackbaud' => [
