@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\Blackbaud\\": "src/Blackbaud"
+            "SocialiteProviders\\Blackbaud\\": "src/Blackbaud/"
         }
     }
 }
