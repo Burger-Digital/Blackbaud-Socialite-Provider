@@ -1,4 +1,5 @@
-    "name": "socialiteproviders/blackbaud",
+{
+    "name": "burger-digital/blackbaud-socialite-provider",
     "description": "Blackbaud OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
